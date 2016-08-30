@@ -24,18 +24,21 @@
 	var geoc = new BMap.Geocoder();   
 
 
-	$.get('data/lng-lat.json', function(content){
+	$.get('data/lng-lat-test.json', function(content){
 		var res = [];
+		console.log(content.length);
 		for(var i=0;i<content.length;i++){
 			var pt = new BMap.Point(content[i].lng,content[i].lat);
+			var count=11304;
 			geoc.getLocation(pt, function(rs){
+				//console.log(rs);
+				var point = rs.point;
 				var addComp = rs.addressComponents;
-				res.push(addComp.province + ", " + addComp.city + ", " + addComp.district + ", " + addComp.street + ", " + addComp.streetNumber);
+				res.push(count+","+addComp.province + ", " + addComp.city + ", " + addComp.district + ", " +point.lng+","+point.lat+'!')//+ addComp.street + ", " + addComp.streetNumber);
+				count++;
 				document.getElementById("test").innerHTML = res;
 			});
-			
 		};
-		console.log(res);
 	});
 	
 //	map.addEventListener("click", function(e){        
