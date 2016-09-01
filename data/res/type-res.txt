@@ -1,9 +1,16 @@
-none:35431
+﻿none:35431
+
 retailer:3103
+
 catering:2780
+
 manufacturer:446
+
 farmer:55
+
 wholesaler:730
+
+
 
 S.A.:1
 #REF!A::1
