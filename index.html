@@ -24,12 +24,12 @@
 	var geoc = new BMap.Geocoder();   
 
 
-	$.get('data/lng-lat-test.json', function(content){
+	$.get('data/bmap-coordinate-9.json', function(content){
 		var res = [];
 		console.log(content.length);
 		for(var i=0;i<content.length;i++){
 			var pt = new BMap.Point(content[i].lng,content[i].lat);
-			var count=11304;
+			var count=1;
 			geoc.getLocation(pt, function(rs){
 				//console.log(rs);
 				var point = rs.point;
