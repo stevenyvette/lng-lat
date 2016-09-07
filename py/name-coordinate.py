@@ -1,9 +1,11 @@
 # coding=utf-8
-
+#整理输出所有出现过的企业
+#格式：
+# name：{lng：，lat：}
 all_location={}
 month=["all_Marnode.csv","all_Aprnode.csv","all_Maynode.csv","all_Junnode.csv","all_Julnode.csv","all_Augnode.csv"]
 
-out=open('../data/all-coordinate.txt', 'w')
+out=open('../data/name-coordinate.txt', 'w')
 
 for x in month:
     i="../data/data_months/"+x

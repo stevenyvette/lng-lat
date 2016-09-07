@@ -1,4 +1,5 @@
 # coding=utf-8
+# 去重
 
 f=open("../data/data_months/all_Junnode.csv","r")
 out=open("../data/res/Junnode-res.txt","w")

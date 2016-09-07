@@ -1,8 +1,8 @@
 # coding=utf-8
 
-f1=open("../data/data_months/all_Junedge.csv","r")
-f2=open("../data/type.txt","r")
-out=open("../data/res/jun-res.txt","w")
+f1=open("../data/data_months/all_Augedge.csv","r")
+f2=open("../data/name-type.txt","r")
+out=open("../data/res/type-count-Aug.txt","w")
 
 dic={}
 count={}

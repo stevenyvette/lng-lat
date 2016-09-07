@@ -1,4 +1,5 @@
 # coding=utf-8
+#输出每个月各个品类的企业在区域分布上的数量
 
 a=["Mar","Apr","May","Jun","Jul","Aug"]
 

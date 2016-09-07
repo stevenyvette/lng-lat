@@ -1,7 +1,7 @@
 # coding=utf-8
 
-f=open("../data/type.txt","r")
-out=open("../data/res/type-res.txt","w")
+f=open("../data/name-type.txt","r")
+out=open("../data/res/type-count.txt","w")
 
 count={}
 for line in f.readlines():

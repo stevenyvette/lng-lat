@@ -1,20 +1,15 @@
-﻿none:35431
-
+﻿:35431
 retailer:3103
-
 catering:2780
-
 manufacturer:446
-
 farmer:55
-
 wholesaler:730
-
 
 
 S.A.:1
 #REF!A::1
 重庆恒都食品开发有限公司:1
+
 Ltd:4
  MATADERO Y DESPIEC:1
 :2
@@ -27,6 +22,7 @@ S.L.U.:1
 LIMITED(泰国）:1
  Ltd:1
 [3]产品信息!A::9
+
 '[伊特安食品（上海）有限公司第一分公司_生产_食品_20151228.xls]原辅料信息'!A::2
 S.A.U.:1
 '[电子模板2(1).xls]产品信息'!A::47
@@ -37,9 +33,11 @@ Ltd.:2
 Invercargil:1
  Ltd. on Haibi:1
 [电子模板2.xls]产品信息!A::49
+
 '[上海龙辉餐饮管理有限公司宁国路店_餐饮_20151231 (1).xls]产品信息'!A::8
 R.L:1
 S.A.U:1
+
  LIMITED:1
 S.A.(FACCSA):1
 [上海华晨食品有限公司_生产_食品_20151212.xls]原辅料信息!A::6
