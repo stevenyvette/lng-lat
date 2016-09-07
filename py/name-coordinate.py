@@ -3,12 +3,12 @@
 #格式：
 # name：{lng：，lat：}
 all_location={}
-month=["all_Marnode.csv","all_Aprnode.csv","all_Maynode.csv","all_Junnode.csv","all_Julnode.csv","all_Augnode.csv"]
+month=["Junnode-res.txt","Aprnode-res.txt","Augnode-res.txt","Maynode-res.txt","Marnode-res.txt","Julnode-res.txt"]
 
-out=open('../data/name-coordinate.txt', 'w')
+out=open('../data/name-coordinate-res.txt', 'w')
 
 for x in month:
-    i="../data/data_months/"+x
+    i="../data/res/old/"+x
     print i
     f=open(i,'r')
     for line in f.readlines():
