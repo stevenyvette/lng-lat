@@ -1,9 +1,9 @@
 # coding=utf-8
 #分类统计每个月的不同食品企业的区域分布
 
-f3=open("../data/res/old/Maynode-res.txt","r")
+f3=open("../data/res/old/Marnode-res.txt","r")
 f4=open("../data/district-coordinate.txt","r")
-out=open("../data/res/name-coordinate-district-May.txt","w")
+out=open("../data/res/name-coordinate-district-Mar.txt","w")
 
 location={}
 location_all={}
