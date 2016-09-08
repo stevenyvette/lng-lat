@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73b58902-d2a8-4148-911a-8da8d5ba0f1d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/name-coordinate-district-Apr.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/name-coordinate-district-Aug.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/name-coordinate-district-Jul.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/name-coordinate-district-Jun.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/name-coordinate-district-Mar.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/name-coordinate-district-May.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/old/Apr-result-final.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/old/Aug-result-final.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/old/Jul-result-final.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/old/Jun-result-final.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/old/Mar-result-final.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/old/May-result-final.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/old/apr-res.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/old/aug-res.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/old/jul-res.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/old/jun-res.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/old/mar-res.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/old/may-res.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/type-count-Apr.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/type-count-Aug.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/type-count-Jul.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/type-count-Jun.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/type-count-Mar.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/res/type-count-May.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py/check.py" afterPath="$PROJECT_DIR$/py/check.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py/district-count.py" afterPath="$PROJECT_DIR$/py/district-count.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py/district-result.py" afterPath="$PROJECT_DIR$/py/district-result.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py/month-district-res.py" afterPath="$PROJECT_DIR$/py/month-district-res.py" />
-    </list>
+    <list default="true" id="73b58902-d2a8-4148-911a-8da8d5ba0f1d" name="Default" comment="" />
     <ignored path="lng-lat.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -111,8 +81,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="896" />
-    <option name="width" value="1025" />
+    <option name="x" value="886" />
+    <option name="width" value="1035" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -437,10 +407,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="896" y="0" width="1025" height="1080" extended-state="1" />
+    <frame x="886" y="0" width="1035" height="1080" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19425173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19234544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />

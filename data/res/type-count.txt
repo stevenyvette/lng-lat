@@ -1,6 +1,0 @@
-﻿:35431
-retailer:3103
-catering:2780
-manufacturer:446
-farmer:55
-wholesaler:730
