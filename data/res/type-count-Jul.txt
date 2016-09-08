@@ -1,6 +1,0 @@
-:7344
-retailer:100
-catering:488
-farmer:130
-wholesaler:1297
-manufacturer:7158

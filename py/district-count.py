@@ -1,9 +1,9 @@
 # coding=utf-8
 #分类统计每个月的不同食品企业的区域分布
 
-f3=open("../data/res/old/Maynode-res.txt","r")
+f3=open("../data/data_months/all_Maynode.csv","r")
 f4=open("../data/district-coordinate.txt","r")
-out=open("../data/res/name-coordinate-district-May.txt","w")
+out=open("../data/res/name-coordinate-district-5-test.txt","w")
 
 location={}
 location_all={}
@@ -24,7 +24,7 @@ for line in f4.readlines():
     try:
         tmp=line.split(",")
         for key in location:
-            if abs(float(tmp[4][1:])-float(location[key][0]))<=0.000001 and abs(float(tmp[5][:-1])-float(location[key][1]))<=0.000001:
+            if abs(float(tmp[4][1:])-float(location[key][0]))<=0.00001 and abs(float(tmp[5][:-1])-float(location[key][1]))<=0.00001:
                 location_all[key]=tmp[4][1:]+","+tmp[5][:-1]+","+tmp[1]+","+tmp[2]+","+tmp[3]
 
     except:
