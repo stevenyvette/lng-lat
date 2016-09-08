@@ -1,11 +1,11 @@
 # coding=utf-8
 #输出每个月各个品类的企业在区域分布上的数量
 
-a=["Mar","Apr","May","Jun","Jul","Aug"]
+a=["3","4","5","6","7","8"]
 
 out=open("../data/res/month-district-res.txt",'w')
 for i in a:
-    file="../data/res/"+i+"-result-final.txt"
+    file="../data/res/month-category-"+i+"-test.txt"
     f=open(file,'r')
     retailer=[]
     catering=[]
