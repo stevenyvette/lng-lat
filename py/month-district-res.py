@@ -3,23 +3,25 @@
 
 a=["3","4","5","6","7","8"]
 
+retailertmp = []
+cateringtmp = []
+manufacturertmp = []
+wholesalertmp = []
+farmertmp = []
+unknowntmp = []
+
 out=open("../data/res/month-district-res.txt",'w')
 for i in a:
     file="../data/res/month-category-"+i+"-test.txt"
     f=open(file,'r')
-    retailer=[]
-    catering=[]
-    manufacturer=[]
-    wholesaler=[]
-    farmer=[]
-    unknown=[]
-
-    out.write(i + "\n")
+    retailer = []
+    catering = []
+    manufacturer = []
+    wholesaler = []
+    farmer = []
+    unknown = []
     count=1
     for line in f.readlines():
-        if count==15 or count==16:
-            count+=1
-            continue
         try:
             tmp=line.split(',')
             t1=tmp[1].find(':')
@@ -38,31 +40,62 @@ for i in a:
         except:
             count+=1
             continue
-    out.write("retailer")
-    for content in retailer:
-        out.write(content+',')
-    out.write('\n')
-    out.write("catering")
-    for content in catering:
-        out.write(content + ',')
-    out.write('\n')
-    out.write("manufacturer")
-    for content in manufacturer:
-        out.write(content + ',')
-    out.write('\n')
-    out.write("wholesaler")
-    for content in wholesaler:
-        out.write(content + ',')
-    out.write('\n')
-    out.write("farmer")
-    for content in farmer:
-        out.write(content + ',')
-    out.write('\n')
-    out.write("unknown")
-    for content in unknown:
-        out.write(content + ',')
 
-    out.write('\n')
+    retailertmp.append(retailer)
+    cateringtmp.append(catering)
+    manufacturertmp.append(manufacturer)
+    wholesalertmp.append(wholesaler)
+    farmertmp.append(farmer)
+    unknowntmp.append(unknown)
+
+out.write("retailer\n")
+count=3
+for content in retailertmp:
+    out.write(str(count)+":[")
+    for i in content:
+        out.write(i+',')
+    out.write('],\n')
+    count+=1
+out.write("catering\n")
+count=3
+for content in cateringtmp:
+    out.write(str(count) + ":[")
+    for i in content:
+        out.write(i + ',')
+    out.write('],\n')
+    count += 1
+out.write("manufacturer\n")
+count=3
+for content in manufacturertmp:
+    out.write(str(count) + ":[")
+    for i in content:
+        out.write(i + ',')
+    out.write('],\n')
+    count += 1
+out.write("wholesaler\n")
+count=3
+for content in wholesalertmp:
+    out.write(str(count) + ":[")
+    for i in content:
+        out.write(i + ',')
+    out.write('],\n')
+    count += 1
+out.write("farmer\n")
+count=3
+for content in farmertmp:
+    out.write(str(count) + ":[")
+    for i in content:
+        out.write(i + ',')
+    out.write('],\n')
+    count += 1
+out.write("unknown\n")
+count=3
+for content in unknowntmp:
+    out.write(str(count) + ":[")
+    for i in content:
+        out.write(i + ',')
+    out.write('],\n')
+    count += 1
 
 
 
